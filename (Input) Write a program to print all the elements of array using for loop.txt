@@ -1,0 +1,12 @@
+// Write a program to print all the elements of array by using for loop
+#include<stdio.h>
+int main()
+{
+int arr[5]={11,22,33,44,55},i;
+printf("Array Elements are :");
+for(i=0;i<5;i++)
+{
+printf("%d\n",arr[i]);
+}
+return 0;
+}
